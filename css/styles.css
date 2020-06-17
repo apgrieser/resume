@@ -46,14 +46,14 @@ hr {
   margin: 100px auto;
 }
 
-a {
+.footer-link {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
-a:hover {
+.footer-link:hover {
   color: #EAF6F6;
 }
 
@@ -61,6 +61,15 @@ div {
   /*background-color:  #E4F9F5;*/
   background-color: white;
 
+}
+
+.sample-list {
+  color: #000;
+  font-family: 'Merriweather';
+}
+
+.sample-list:hover {
+  color: #11999E;
 }
 
 .intro {
@@ -107,6 +116,13 @@ div {
 .left-pic {
   width: 25%;
   border-radius: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.left-pic-no-rounding {
+  width: 25%;
+  /* border-radius: 20%; */
   float: left;
   margin-right: 30px;
 }
