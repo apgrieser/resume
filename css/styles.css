@@ -104,14 +104,14 @@ div {
   max-width: 10%;*/
 }
 
-.teacher-pic {
+.left-pic {
   width: 25%;
   border-radius: 20%;
   float: left;
   margin-right: 30px;
 }
 
-.computer-pic {
+.right-pic {
   width: 25%;
   border-radius: 20%;
   float: right;
