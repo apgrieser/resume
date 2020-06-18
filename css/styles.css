@@ -35,7 +35,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-p {
+p, li {
   line-height: 2;
 }
 
@@ -53,8 +53,19 @@ hr {
   text-decoration: none;
 }
 
+
+
 .footer-link:hover {
   color: #EAF6F6;
+}
+
+
+.footer-pic {
+  border-radius: 100%;
+  max-width: 10%;
+  max-height: 10%;
+  /* width: 30%; */
+  margin: auto;
 }
 
 div {
@@ -114,30 +125,42 @@ div {
 }
 
 .left-pic {
-  width: 25%;
+  width: 20%;
   border-radius: 20%;
   float: left;
   margin-right: 30px;
 }
 
 .left-pic-no-rounding {
-  width: 25%;
+  width: 20%;
   /* border-radius: 20%; */
   float: left;
   margin-right: 30px;
 }
 
 .right-pic {
-  width: 25%;
+  width: 20%;
   border-radius: 20%;
   float: right;
   margin-left: 30px;
 }
 
+.right-pic-no-rounding {
+  width: 20%;
+  /* border-radius: 20%; */
+  float: right;
+  margin-left: 30px;
+}
+
+.skills-container {
+  margin: 50px;
+}
+
 .top-container {
   background-color:  #E4F9F5;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .middle-container {
@@ -149,7 +172,8 @@ div {
   padding: 50px 0 20px;
 }
 
-.pro {
+
+/* .pro {
   text-decoration: underline;
 }
 
@@ -163,7 +187,7 @@ div {
   position: absolute;
   left: 250px;
   bottom: 300px;
-}
+} */
 
 /* Button generated CSS from cssbuttoncreator.com */
 .btn {
